@@ -1,0 +1,28 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "Cypress testing project for website testing",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:report": "cypress run --reporter cypress-mochawesome-reporter --browser chrome --spec cypress/e2e/sample.cy.js"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^17.3.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
