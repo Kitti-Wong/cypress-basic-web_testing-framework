@@ -28,7 +28,7 @@ module.exports = defineConfig({
 
     //Cypress: Custom file paths
     fixturesFolder: "cypress/fixtures",
-    specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    specPattern: "cypress/tests/**/*.cy.{js,jsx,ts,tsx}",
     supportFile: "cypress/support/e2e.js",
 
     video: true,

@@ -5,4 +5,4 @@ import './commands'
 import 'cypress-mochawesome-reporter/register'
 
 // Import XPath support
-require('cypress-xpath') 
+require('cypress-xpath');
