@@ -31,3 +31,4 @@ Cypress.Commands.add("assertStep", (stepName, fn, actual = null) => {
 Cypress.Commands.add("cooldown", (ms = 500) => {
   cy.wait(ms);
 });
+
